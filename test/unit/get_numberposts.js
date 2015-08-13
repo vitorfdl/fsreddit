@@ -1,5 +1,5 @@
 "use strict";
-var lib = require("../../lib/");
+var lib        = require("../../lib/");
 var mock_dilma = require("../mocks/dilma.js");
 var mock_obama = require("../mocks/obama.js");
 
