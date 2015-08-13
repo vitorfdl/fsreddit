@@ -1,0 +1,20 @@
+{
+  "name": "fsreddit",
+  "version": "1.0.0",
+  "description": "search keyword and get informations on reddit",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui tdd --recursive",
+    "start": "node index.js"
+  },
+  "author": "Vitor Ferreira de Lima",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "lodash": "^3.10.1",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
