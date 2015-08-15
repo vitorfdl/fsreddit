@@ -48,7 +48,9 @@ async.parallel(search_objects, function(err, results){
 
     var calc_str = "\n";
     _.forIn(comments_percent, function(data, k) {
-        calc_str += format("%s has %s% of posts; ", k, data);
+        if (data === "not a number") { console.log(format("Was not possible to calculate the percent of comments for %s, reason %s", k, data)); }
+        else { calc_str += format("%s has %s% of comments; ", k, data); }
+        
     });
 
     console.log(calc_str);

@@ -29,7 +29,7 @@ dilma have a total of 25 of posts
 dilma author of the last post is 'nomanoid'
 dilma sum of comments of all posts is 212
 
-obama has 16.86% of posts; dilma has 83.14% of posts;
+obama has 16.86% of comments; dilma has 83.14% of comments;
 ```
 
 ## License
